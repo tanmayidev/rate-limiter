@@ -1,0 +1,11 @@
+export const TOKEN_BUCKET_CAPACITY = 10;
+export const TOKEN_BUCKET_TTL = 10000;
+
+export const FIXED_WINDOW_COUNTER_CAPACITY = 10;
+export const FIXED_WINDOW_COUNTER_WINDOW_SIZE = 10; // In seconds
+
+export const SLIDING_WINDOW_LOG_REQUEST_CAPACITY = 5;
+export const SLIDING_WINDOW_LOG_WINDOW_SIZE = 30; // In seconds
+
+export const SLIDING_WINDOW_COUNTER_CAPACITY = 5;
+export const SLIDING_WINDOW_COUNTER_WINDOW_SIZE = 30; // In seconds
