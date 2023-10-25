@@ -61,10 +61,10 @@ A rate limiter is a software or hardware component used to control the rate at w
 
 ### Built With
 
-- [![Node][NodeJS]][NodeJS-url]
-- [![TypeScript][TypeScript]][TypeScript-url]
-- [![Express][ExpressJS]][ExpressJS-url]
-- [![Jest][Jest]][Jest-url]
+- NodeJS
+- TypeScript
+- ExpressJS
+- Jest
 
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
