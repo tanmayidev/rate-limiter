@@ -1,21 +1,3 @@
-<a name="readme-top"></a>
-
-<!--
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
-
-PROJECT LOGO
-
- <br />
-
- -->
-
 ## Rate Limiter
 
 A rate limiter is a software or hardware component used to control the rate at which certain operations or requests are allowed to occur within a system or application. It is a crucial tool for managing and regulating the flow of data, requests, or actions to prevent overuse of resources, maintain system stability, and protect against abuse or denial-of-service attacks.
@@ -46,6 +28,7 @@ A rate limiter is a software or hardware component used to control the rate at w
       </ul>
     </li>
     <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#results">Results</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
   </ol>
@@ -57,16 +40,12 @@ A rate limiter is a software or hardware component used to control the rate at w
 
 <!-- [Rate Limiter](https://github.com/tanmayidev/rate-limiter) -->
 
-<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
-
 ### Built With
 
 - NodeJS
 - TypeScript
 - ExpressJS
 - Jest
-
-<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- GETTING STARTED -->
 
@@ -99,8 +78,6 @@ This is an example of how to list things you need to use the software and how to
    npm run start
    ```
 
-<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
-
 <!-- USAGE EXAMPLES -->
 
 ## Usage
@@ -131,10 +108,6 @@ Use this space to show useful examples of how a project can be used. Additional 
 3. **Default Algorithm**:
 
    If the `rate-limiting-algo` header is not specified, it defaults to the **Token Bucket** algorithm.
-
-<!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
-
-<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- POSTMAN -->
 
@@ -180,7 +153,14 @@ rate-limiting-algo: 0
 
 See the [open issues](https://github.com/tanmayidev/rate-limiter/issues) for a full list of proposed features (and known issues).
 
-<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<!-- RESULTS -->
+
+## Results
+
+- [Token Bucket Performance Report](./analytics/[Token-Bucket]RateLimiter-performance-report.html)
+- [Fixed Windows Counter Performance Report](./analytics/[FixedWindowCounter]RateLimiter-performance-report.html)
+- [Sliding Windows Log Performance Report](./analytics/[SlidingWindowLog]RateLimiter-performance-report.html)
+- [Sliding Window Counter Performance Report](./analytics/[SlidingWindowCounter]RateLimiter-performance-report.html)
 
 <!-- CONTRIBUTING -->
 
@@ -197,26 +177,12 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
-
 <!-- LICENSE -->
 
 ## License
 
 Distributed under the ISC License.
 [MIT License](./LICENSE)
-
-<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
-
-<!-- ACKNOWLEDGMENTS -->
-
-<!-- ## Acknowledgments
-
-- []()
-- []()
-- []()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
