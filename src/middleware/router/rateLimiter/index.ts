@@ -31,7 +31,7 @@ export const rateLimiter = (req: Request, res: Response, next: NextFunction) => 
     case RateLimitingAlgorithm.FixedWindowCounter: {
       const ipAddress = req.get('origin-ipaddress');
 
-      logger(LogTypes.Info, `Request is being rate-limited using TokenBucket Algorithm for IP: '${ipAddress}'`);
+      logger(LogTypes.Info, `Request is being rate-limited using FixedWindowCounter Algorithm for IP: '${ipAddress}'`);
 
       fixedWindowCounterHandler() ? next() : res.status(429).send(`Too many requests, please try again after sometime.`);
 
